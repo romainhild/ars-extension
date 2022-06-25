@@ -1,0 +1,12 @@
+{
+    "name": "Ars-video-remover",
+    "description": "Remove Ars video",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://arstechnica.com/*"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
